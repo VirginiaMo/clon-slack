@@ -13,48 +13,58 @@
 
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
+    <link rel="preload" href="https://a.slack-edge.com/1b6ae/fonts/circular/circular-pro-book.woff2" as="font" type="font/woff2" crossorigin="annonymous">
+    <link rel="preload" href="https://a.slack-edge.com/1b6ae/fonts/circular/circular-pro-bold.woff2" as="font" type="font/woff2" crossorigin="annonymous">
+    <link rel="preload" href="https://a.slack-edge.com/80588/fonts/lato-2-compressed/lato-black.woff2" as="font" type="font/woff2" crossorigin="annonymous">
+    <link rel="preload" href="https://a.slack-edge.com/80588/spacesuit/source/fonts/larsseit/larsseit-light-italic.woff2" as="font" type="font/woff2" crossorigin="annonymous">
+    <link rel="preload" href="https://a.slack-edge.com/fff1e7/fonts/larsseit/larsseit-bold.woff2" as="font" type="font/woff2" crossorigin="annonymous">
+    <link rel="preload" href="https://a.slack-edge.com/80588/spacesuit/source/fonts/larsseit/larsseit-italic.woff2" as="font" type="font/woff2" crossorigin="annonymous">
     <title>Where work happens | Slack</title>
   </head>
 
   <body>
-    <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
+    <nav class="background">
+      <img class="logo" src="./images/slack-logo.png" alt="slack_logo" />
+      <ul class="navList">
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
         <li>Your Workspaces</li>
       </ul>
       <i class="fas fa-bars"></i>
-      <i class="fas fa-times"></i>
+      <i class="fas iconTimes"></i>
     </nav>
     <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
-      <h1>Where Work Happens</h1>
-      <p>
-        When your team needs to kick off a project, hire a new employee, deploy
-        some code, review a sales contract, finalize next year's budget, measure
-        an A/B test, plan your next office opening, and more, Slack has you
+     
+    <h1 id="grey">Where Work <br>Happens </h1>
+      <p class="text1">
+        When your team needs to kick off a <br>project, hire a new employee, deploy
+        some<br> code, review a sales contract, finalize next<br> year's budget, measure
+        an A/B test, plan<br> your next office opening, and more, Slack<br> has you
         covered.
       </p>
-      <button type="button" name="button">GET STARTED</button>
-      <p>Already using Slack? <a href="#">Sign in</a></p>
+      <button class="getButton" type="button" name="button">GET STARTED</button>
+      <p class="text2">Already using Slack? <a href="#">Sign in</a></p> 
+  
     </header>
     <main>
-      <div>
-        <h2>You're in good company</h2>
-        <p>
-          Millions of people around the world have already made Slack the place
-          where their work happens.
+      <section>
+        <img class="imageTalking"src="./images/home_talking.png" alt="home_work_happening" />
+       </section>
+       <section>
+        <h2 style= "padding-left: 60px;">You're in good company</h2>
+        <p class="text3" style="margin-left: 50px;">
+          Millions of people around the world have<br> already made Slack the place
+          where their<br> work happens.
         </p>
-        <button>DISCOVER WHY</button>
+        <button class="buttonDiscover">DISCOVER WHY</button>
         <img src="./images/airbnb-logo.png" alt="" />
         <img src="./images/capital-one-logo.png" alt="" />
         <img src="./images/harvard-logo.png" alt="" />
         <img src="./images/los-angeles-times-logo.png" alt="" />
         <img src="./images/oracle-logo.png" alt="" />
         <img src="./images/ticketmaster-logo.png" alt="" />
-      </div>
+      </section>
       <div>
         <p>Try it for free</p>
         <p>Already using Slack? <a href="">Sign in</a></p>

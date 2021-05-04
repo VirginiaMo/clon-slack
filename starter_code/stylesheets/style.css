@@ -5,3 +5,84 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+.background {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+
+
+img.logo{
+    height: 70px;
+  display: flexbox;
+
+}
+
+.navList{
+    display:none;
+}
+
+
+.fa-bars {
+    display: flex;
+    align-items: center;
+}
+
+.iconTimes {
+    display:none;
+}
+
+#grey{
+    opacity: 0.8;
+    color:dark-grey #2C303F; 
+}
+.text1{
+    opacity: 0.6;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.getButton{
+    background-color:rgb(64,73,170);
+    color:white;
+    font-size: 15px;
+   padding-right: 110px;
+   padding-left: 130px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-weight: 600;
+
+}
+.text2{
+    font-family:Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    /*opacity: 0.7;*/
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(91,94,108);
+    display: inline-block;
+    margin-left: 60px;
+}
+.imageTalking{
+    height: 400px;
+    width: 350px;
+    
+}
+.h2{
+    opacity: 0.8;
+    color:dark-grey #2C303F; 
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    } 
+    .text3{
+       color: grey #5b5e6d; 
+       font-size: 18px;
+       opacity: 0.7;
+    }
+.buttonDiscovery{
+    background-color:white;
+    color:blue;
+  
+}
