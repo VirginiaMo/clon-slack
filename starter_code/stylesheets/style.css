@@ -81,8 +81,67 @@ img.logo{
        font-size: 18px;
        opacity: 0.7;
     }
-.buttonDiscovery{
+.buttonDiscover{
     background-color:white;
     color:blue;
-  
+    border-color:blue;
+    border-width: 1px;
+    font-weight: bolder;
+    padding-left: 90px;
+    margin-left: 50px;
+    padding-right: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.imagLogos{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.imgAirb{
+    width: 180px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.imgCapital{
+    width: 180px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.imgHarvard{
+    width: 180px;
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.imgLosangeles{
+    width: 250px;
+    height: 70px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.imgOracle{
+    width: 140px;
+    height: 30px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.imgTicket{
+    width: 180px;
+    height: 40px;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+.textTry{
+    font-weight: bold;
+    font-size: 20px;
+    
 }
