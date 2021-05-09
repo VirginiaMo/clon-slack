@@ -6,6 +6,9 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
+    @media (max-width:767px) {
+        
+
 .background {
         display: flex;
         flex-direction: row;
@@ -37,6 +40,12 @@ img.logo{
 #grey{
     opacity: 0.8;
     color:dark-grey #2C303F; 
+    margin-left: 20px;
+    padding-right: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: bold;
 }
 .text1{
     opacity: 0.6;
@@ -44,16 +53,20 @@ img.logo{
     line-height: 26px;
     font-weight: 400;
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    margin-right: 400px;
+    margin-left: 20px;
 }
 .getButton{
     background-color:rgb(64,73,170);
     color:white;
     font-size: 15px;
-   padding-right: 110px;
-   padding-left: 130px;
+   padding-right: 200px;
+   padding-left: 180px;
    padding-top: 10px;
    padding-bottom: 10px;
    font-weight: 600;
+   margin-left: 20px;
+    margin-right: 10px;
 
 }
 .text2{
@@ -64,22 +77,32 @@ img.logo{
     font-weight: 400;
     color: rgb(91,94,108);
     display: inline-block;
-    margin-left: 60px;
+    margin-right: 200px;
+    margin-left: 120px;
+    
 }
 .imageTalking{
     height: 400px;
-    width: 350px;
+    width: 460px;
     
 }
-.h2{
+.GoodCompa{
     opacity: 0.8;
     color:dark-grey #2C303F; 
     font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    padding-left: 140px;
     } 
     .text3{
        color: grey #5b5e6d; 
-       font-size: 18px;
-       opacity: 0.7;
+       font-size: 20px;
+       opacity: 0.7;    
+        padding-right: 200px;
+        padding-left: 60px;
+        text-align: center;
+        width: 350px;
+        height: 115px;
+        padding-bottom: 0px;
+        margin-bottom: 5px;
     }
 .buttonDiscover{
     background-color:white;
@@ -87,12 +110,14 @@ img.logo{
     border-color:blue;
     border-width: 1px;
     font-weight: bolder;
-    padding-left: 90px;
-    margin-left: 50px;
-    padding-right: 100px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 100px;
+    font-size: 16px;
+    width: 452px;
 }
 
 .imagLogos{
@@ -105,53 +130,56 @@ justify-content: center;
 .imgAirb{
     width: 180px;
     height: 60px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 40px;
 }
 
 .imgCapital{
     width: 180px;
     height: 60px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 40px;
 }
 
 .imgHarvard{
     width: 180px;
     height: 60px;
-    margin-left: 100px;
+    margin-left: 190px;
     margin-top: 40px;
 }
 .imgLosangeles{
     width: 250px;
     height: 70px;
-    margin-left: 80px;
+    margin-left: 170px;
     margin-top: 40px;
 }
 .imgOracle{
     width: 140px;
     height: 30px;
-    margin-left: 120px;
+    margin-left: 220px;
     margin-top: 40px;
 }
 .imgTicket{
     width: 180px;
     height: 40px;
-    margin-left: 110px;
+    margin-left: 200px;
     margin-top: 40px;
 }
 .textTry{
     font-weight: bold;
     font-size: 23px;
-    margin-left: 130px;
+    margin-left: 200px;
 }
 .backgroundGrey{
     background-color: #F4F3F4;
     padding-top: 30px;
     padding-bottom: 60px;
+    margin-right: 0px;
+    width: 1330px;
+
 }
 .textUsing{
-    margin-left: 100px;
+    margin-left: 160px;
     font-size: 20px;
 }
 .buttonBox{
@@ -163,10 +191,10 @@ justify-content: center;
     background-color: white;
     color:grey;
     padding-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 250px;
     padding-top: 10px;
-    padding-right: 200px;
+    padding-right: 250px;
     font-size: 15px;
 
     
@@ -177,8 +205,8 @@ justify-content: center;
     color:white;
     font-weight: bold;
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 250px;
     padding-top: 10px;
     padding-right: 30px;
     padding-bottom: 10px;
@@ -194,6 +222,7 @@ justify-content: center;
 }
 .List1{
     list-style: none;
+    padding-left: 1px;
 
 }
 .title1{
@@ -229,6 +258,10 @@ justify-content: center;
 .BackgGrey{
     background-color: #F4F3F4;
     padding-top: 10px;
+    margin-right: 222px;
+    width: 590px;
+    
+
 }
 .LastList{
     list-style: none;
@@ -247,9 +280,1036 @@ justify-content: center;
    
     
 }
+.EeuuFlag{
+    width: 20px;
+}
 .RedeSociales{
     display: flex;
     color: gray;
     justify-content: center;
 }
+  
 
+/*************************** FIN MÓVIL  *****************************************/
+
+}
+@media (min-width:767px) and (max-width:961px){
+
+    .background {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+
+    img.logo{
+        width: 300px;
+        height: 150px;
+      display: flexbox;
+    
+    }
+    
+    .navList{
+        display:none;
+    }
+
+    .fa-bars {
+        display: flex;
+        align-items: center;
+        margin-left: 900px;
+        padding-left: 100px;
+        
+    }
+    
+    .iconTimes {
+        display:none;
+    }
+    
+    #grey{
+        opacity: 0.8;
+        color:dark-grey #2C303F; 
+        margin-left: 350px;
+        padding-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 70px;
+        font-weight: bold;
+        width: 700px;
+
+    }
+    .text1{
+        opacity: 0.6;
+        font-size: 25px;
+        line-height: 26px;
+        font-weight: 400;
+        font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+        margin-right: 200px;
+        margin-left: 100px;
+        width: 1000px;
+    }
+
+    .getButton{
+        background-color:rgb(64,73,170);
+        color:white;
+        font-size: 20px;
+       padding-right: 10px;
+       padding-left: 10px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       font-weight: 600;
+       margin-left: 550px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+.text2{
+    font-family:Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    /*opacity: 0.7;*/
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(91,94,108);
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 120px;
+    
+}
+
+.imageTalking{
+    height: 600px;
+    width: 600px;
+    padding-left: 400px;
+    
+}
+
+.GoodCompa{
+    opacity: 0.8;
+    color:dark-grey #2C303F; 
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    padding-left: 370px;
+    font-size: 40px;
+    } 
+
+    .backgroundGrey{
+        background-color: #F4F3F4;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        margin-right: 70px;
+        width: 1270px;
+        margin-left: 30px;
+    }
+
+        .text3{
+           color: grey #5b5e6d; 
+           font-size: 25px;
+           opacity: 0.7;    
+            padding-right: 700px;
+            padding-left: 100px;
+            text-align: center;
+            width: 900px;
+            height: 115px;
+            padding-bottom: 0px;
+            margin-bottom: 5px;
+        }
+
+    .buttonDiscover{
+        background-color:white;
+        color:blue;
+        border-color:blue;
+        border-width: 1px;
+        font-weight: bolder;
+        padding-left: 100px;
+        padding-right: 120px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 380px;
+        margin-right: 100px;
+        font-size:23px;
+        width: 430px;
+    }
+
+    .imgAirb{
+        width: 180px;
+        height: 60px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+    
+    .imgCapital{
+        width: 180px;
+        height: 60px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+    
+    .imgHarvard{
+        width: 180px;
+        height: 60px;
+        margin-left: 190px;
+        margin-top: 40px;
+    }
+    .imgLosangeles{
+        width: 250px;
+        height: 70px;
+        margin-left: 170px;
+        margin-top: 40px;
+    }
+    .imgOracle{
+        width: 140px;
+        height: 30px;
+        margin-left: 220px;
+        margin-top: 40px;
+    }
+    .imgTicket{
+        width: 180px;
+        height: 40px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+
+    .imagLogos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 200px;
+        margin-left: 140px;
+        margin-top: 30px;
+       
+        }
+
+        .containerTextoButton{
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+
+        }
+        .textTry{
+            font-weight: bold;
+            font-size: 23px;
+            margin-left: 200px;
+        }
+        .textUsing{
+            margin-left: 160px;
+            font-size: 20px;
+        }
+        
+        .ButEmail{
+            background-color: white;
+            color:grey;
+            padding-bottom: 10px;
+            margin-left: 30px;
+            margin-right: 250px;
+            padding-top: 10px;
+            padding-right: 250px;
+            font-size: 15px;
+        
+            
+        }
+        .ButGet{
+            background-color:blue;
+            color:white;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 250px;
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+        }
+        .buttonBox{
+            display: flex;
+            flex-direction: row;
+            margin-left: 500px;
+            width: 600px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+        .imIconslack{
+            height: 250px;
+            width: 250px;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 200px;
+    width: 800px;
+    
+}
+.List1{
+    list-style: none;
+    padding-left: 1px;
+    font-size: 22px;
+
+}
+.title1{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title2{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title3{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title4{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.List2{
+    list-style: none;
+    font-size: 22px;
+}
+.List3{
+    list-style: none;
+    font-size: 22px;
+}
+.List4{
+    list-style: none;
+    font-size: 22px;
+}
+
+.LastList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    color:gray;
+    font-size: 20px;
+    width: 500px;
+    padding-left: 100px;
+}
+.IconoEnglish{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+   justify-content: center;
+   padding-left: 450px;
+
+    
+}
+.RedeSociales{
+    display: flex;
+    color: gray;
+    justify-content: center;
+}
+.BackgGrey{
+    background-color: #F4F3F4;
+    padding-top: 10px;
+    margin-right: 222px;
+    display: flex;
+    justify-content: space-between;
+    width: 1340px;
+}
+.EeuuFlag{
+    width: 40px;
+    padding-bottom: 40px;
+}
+
+/*************************** FIN TABLET  *****************************************/
+
+}
+
+
+
+/*************************** INICIO MIN 961 - MAX 1024  *****************************************/
+@media (min-width:962px) and (max-width:1024px){
+
+    .background {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+
+    img.logo{
+        width: 300px;
+        height: 150px;
+      display: flexbox;
+    
+    }
+    
+    .navList{
+        display:none;
+    }
+
+    .fa-bars {
+        display: flex;
+        align-items: center;
+        margin-left: 900px;
+        padding-left: 100px;
+        
+    }
+    
+    .iconTimes {
+        display:none;
+    }
+    
+    #grey{
+        opacity: 0.8;
+        color:dark-grey #2C303F; 
+        margin-left: 350px;
+        padding-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 70px;
+        font-weight: bold;
+        width: 700px;
+
+    }
+    .text1{
+        opacity: 0.6;
+        font-size: 25px;
+        line-height: 26px;
+        font-weight: 400;
+        font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+        margin-right: 200px;
+        margin-left: 100px;
+        width: 1000px;
+    }
+
+    .getButton{
+        background-color:rgb(64,73,170);
+        color:white;
+        font-size: 20px;
+       padding-right: 10px;
+       padding-left: 10px;
+       padding-top: 30px;
+       padding-bottom: 30px;
+       font-weight: 600;
+       margin-left: 550px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+.text2{
+    font-family:Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    /*opacity: 0.7;*/
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(91,94,108);
+    display: inline-block;
+    margin-right: 200px;
+    margin-left: 120px;
+    
+}
+
+.imageTalking{
+    height: 600px;
+    width: 600px;
+    padding-left: 400px;
+    
+}
+
+.GoodCompa{
+    opacity: 0.8;
+    color:dark-grey #2C303F; 
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    font-size: 40px;
+    padding-left: 420px;
+    } 
+
+    .backgroundGrey{
+        background-color: #F4F3F4;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        margin-right: 70px;
+        margin-left: 30px;
+        width: 1500px;
+    }
+
+        .text3{
+           color: grey #5b5e6d; 
+           font-size: 25px;
+           opacity: 0.7;    
+            padding-right: 700px;
+            text-align: center;
+            width: 900px;
+            height: 115px;
+            padding-bottom: 0px;
+            margin-bottom: 5px;
+            padding-left: 200px;
+        }
+
+    .buttonDiscover{
+        background-color:white;
+        color:blue;
+        border-color:blue;
+        border-width: 1px;
+        font-weight: bolder;
+        padding-left: 100px;
+        padding-right: 120px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size:23px;
+        width: 430px;
+        margin-right: 80px;
+        margin-left: 470px;
+    }
+
+    .imgAirb{
+        width: 180px;
+        height: 60px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+    
+    .imgCapital{
+        width: 180px;
+        height: 60px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+    
+    .imgHarvard{
+        width: 180px;
+        height: 60px;
+        margin-left: 190px;
+        margin-top: 40px;
+    }
+    .imgLosangeles{
+        width: 250px;
+        height: 70px;
+        margin-left: 170px;
+        margin-top: 40px;
+    }
+    .imgOracle{
+        width: 140px;
+        height: 30px;
+        margin-left: 220px;
+        margin-top: 40px;
+    }
+    .imgTicket{
+        width: 180px;
+        height: 40px;
+        margin-left: 200px;
+        margin-top: 40px;
+    }
+
+    .imagLogos{
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 200px;
+        margin-top: 30px;
+        margin-left: 90px;
+       
+        }
+
+        .containerTextoButton{
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+
+        }
+        .textTry{
+            font-weight: bold;
+            font-size: 23px;
+            margin-left: 200px;
+        }
+        .textUsing{
+            margin-left: 160px;
+            font-size: 20px;
+        }
+        
+        .ButEmail{
+            background-color: white;
+            color:grey;
+            padding-bottom: 10px;
+            margin-left: 30px;
+            margin-right: 250px;
+            padding-top: 10px;
+            padding-right: 250px;
+            font-size: 15px;
+        
+            
+        }
+        .ButGet{
+            background-color:blue;
+            color:white;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 30px;
+            margin-right: 250px;
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+        }
+        .buttonBox{
+            display: flex;
+            flex-direction: row;
+            margin-left: 500px;
+            width: 600px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+        .imIconslack{
+            height: 250px;
+            width: 250px;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 200px;
+    width: 800px;
+    
+}
+.List1{
+    list-style: none;
+    padding-left: 1px;
+    font-size: 22px;
+
+}
+.title1{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title2{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title3{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title4{
+    padding-bottom: 10px;
+    color:grey;
+    font-weight: bold;
+    font-size: 25px;
+}
+.List2{
+    list-style: none;
+    font-size: 22px;
+}
+.List3{
+    list-style: none;
+    font-size: 22px;
+}
+.List4{
+    list-style: none;
+    font-size: 22px;
+}
+
+.LastList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    color:gray;
+    font-size: 20px;
+    width: 500px;
+    padding-left: 100px;
+}
+.IconoEnglish{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+   justify-content: center;
+   padding-left: 450px;
+
+    
+}
+.RedeSociales{
+    display: flex;
+    color: gray;
+    justify-content: center;
+}
+.BackgGrey{
+    background-color: #F4F3F4;
+    padding-top: 10px;
+    margin-right: 222px;
+    display: flex;
+    justify-content: space-between;
+    width: 1435px;
+}
+.EeuuFlag{
+    width: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+/*************************** FIN MIN 961 - MAX 1024  *****************************************/
+}
+
+
+/*************************** INICIO 1200>  *****************************************/
+
+@media (min-width:1200px){
+
+
+        .background {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 150px;
+            width: 1360px;
+           
+           
+        }
+    
+        img.logo{
+            width: 300px;
+            height: 150px;
+          display: flexbox;
+        
+        }
+        
+        .navList{
+            display:flex;
+            font-size: 20px;
+            list-style: none;
+            color:darkgrey;
+             padding-left: 10px;
+            width: 430px;
+        }
+       
+    
+        .fa-bars {
+            display: none;
+           
+            
+        }
+        
+        .iconTimes {
+            display:none;
+        }
+        .containerheader{
+            flex-direction: row-reverse;
+            width: 1700px;
+            display: flex;
+             
+        }
+        .containerHead1{
+            width: 1000px;
+        }
+        
+        #grey{
+            opacity: 0.8;
+            color:dark-grey #2C303F; 
+            margin-left: 300px;
+            padding-right: 2000px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 70px;
+            font-weight: bold;
+            width: 400px;
+            margin-right: 300px;
+    
+        }
+        .text1{
+            opacity: 0.6;
+            font-size: 25px;
+            line-height: 26px;
+            font-weight: 400;
+            font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+            margin-right: 100px;
+            margin-left: 0px;
+            width: 480px;
+            padding-left: 300px;
+        }
+    
+        .getButton{
+            background-color:rgb(64,73,170);
+            color:white;
+            font-size: 20px;
+           padding-right: 10px;
+           padding-left: 10px;
+           padding-top: 30px;
+           padding-bottom: 30px;
+           font-weight: 600;
+           margin-left: 300px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+    
+    .text2{
+        font-family:Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+        /*opacity: 0.7;*/
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 400;
+        color: rgb(91,94,108);
+        display: inline-block;
+        margin-right: 200px;
+        margin-left: 300px;
+        
+    }
+    
+    .imageTalking{
+        height: 600px;
+        width: 600px;
+        padding-left: 400px;
+        
+    }
+    
+    .GoodCompa{
+        opacity: 0.8;
+        color:dark-grey #2C303F; 
+        font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+        font-size: 40px;
+        padding-left: 420px;
+        } 
+    
+        .backgroundGrey{
+            background-color: #F4F3F4;
+            padding-top: 30px;
+            padding-bottom: 60px;
+            margin-right: 70px;
+            margin-left: 30px;
+            width: 1500px;
+        }
+    
+            .text3{
+               color: grey #5b5e6d; 
+               font-size: 25px;
+               opacity: 0.7;    
+                padding-right: 700px;
+                text-align: center;
+                width: 900px;
+                height: 115px;
+                padding-bottom: 0px;
+                margin-bottom: 5px;
+                padding-left: 200px;
+            }
+    
+        .buttonDiscover{
+            background-color:white;
+            color:blue;
+            border-color:blue;
+            border-width: 1px;
+            font-weight: bolder;
+            padding-left: 100px;
+            padding-right: 120px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            font-size:23px;
+            width: 430px;
+            margin-right: 80px;
+            margin-left: 470px;
+        }
+    
+        .imgAirb{
+            width: 180px;
+            height: 60px;
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+        
+        .imgCapital{
+            width: 180px;
+            height: 60px;
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+        
+        .imgHarvard{
+            width: 180px;
+            height: 60px;
+            margin-left: 190px;
+            margin-top: 40px;
+        }
+        .imgLosangeles{
+            width: 250px;
+            height: 70px;
+            margin-left: 170px;
+            margin-top: 40px;
+        }
+        .imgOracle{
+            width: 140px;
+            height: 30px;
+            margin-left: 220px;
+            margin-top: 40px;
+        }
+        .imgTicket{
+            width: 180px;
+            height: 40px;
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+    
+        .imagLogos{
+            display: flex;
+            flex-wrap: wrap;
+            padding-right: 200px;
+            margin-top: 30px;
+            margin-left: 90px;
+           
+            }
+    
+            .containerTextoButton{
+                display: flex;
+                flex-direction: row;
+                width: 2000px;
+    
+            }
+            .textTry{
+                font-weight: bold;
+                font-size: 23px;
+                margin-left: 200px;
+            }
+            .textUsing{
+                margin-left: 160px;
+                font-size: 20px;
+            }
+            
+            .ButEmail{
+                display: none;
+                background-color: white;
+                color:grey;
+                padding-bottom: 10px;
+                margin-left: 30px;
+                margin-right: 250px;
+                padding-top: 10px;
+                padding-right: 250px;
+                font-size: 15px;
+            
+                
+            }
+            .ButGet{
+                background-color:blue;
+                color:white;
+                font-weight: bold;
+                margin-top: 20px;
+                margin-left: 30px;
+                margin-right: 250px;
+                padding-top: 10px;
+                padding-right: 30px;
+                padding-bottom: 10px;
+            }
+            .buttonBox{
+                display: flex;
+                flex-direction: row;
+                margin-left: 500px;
+                width: 600px;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+    
+            .imIconslack{
+                height: 150px;
+                width: 150px;
+                margin-left: 50px;
+    }
+    
+    .containerFooter{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 200px;
+        width: 800px;
+        
+    }
+    .List1{
+        list-style: none;
+        padding-left: 1px;
+        font-size: 22px;
+    
+    }
+    .title1{
+        padding-bottom: 10px;
+        color:grey;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .title2{
+        padding-bottom: 10px;
+        color:grey;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .title3{
+        padding-bottom: 10px;
+        color:grey;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .title4{
+        padding-bottom: 10px;
+        color:grey;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .List2{
+        list-style: none;
+        font-size: 22px;
+    }
+    .List3{
+        list-style: none;
+        font-size: 22px;
+    }
+    .List4{
+        list-style: none;
+        font-size: 22px;
+    }
+    
+    .LastList{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-weight: bold;
+        color:gray;
+        font-size: 20px;
+        width: 500px;
+        padding-left: 100px;
+    }
+    .IconoEnglish{
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+       justify-content: center;
+       padding-left: 450px;
+    
+        
+    }
+    .RedeSociales{
+        display: flex;
+        color: gray;
+        justify-content: center;
+    }
+    .BackgGrey{
+        background-color: #F4F3F4;
+        padding-top: 10px;
+        margin-right: 222px;
+        display: flex;
+        justify-content: space-between;
+        width: 1500px;
+    }
+    .EeuuFlag{
+        width: 40px;
+        padding-bottom: 40px;
+    }
+    
+    
+    
+    
+/*************************** FIN  >1200 *****************************************/
+}
